@@ -10,7 +10,7 @@ env:
 jobs:
   build-test-and-push:
     runs-on: ubuntu-latest
-    environment: web-app
+    environment: webapp-env
     permissions:
       contents: read
 
