@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   webapp:
-    image: maclaimi20/webapp:v7
+    image: maclaimi20/webapp-release:v2
     ports: ["80:1200"]
     environment:
       PORT: 1200
