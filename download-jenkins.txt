@@ -1,0 +1,8 @@
+sudo -s
+apt-get -y install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add
+sudo bash -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt update
+sudo apt install openjdk-8-jdk           # choose this or next line
+sudo apt install openjdk-11-jre-headless # or Install Java 11 JDK/JRE
+sudo apt-get install jenkins
