@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    IMAGE = "maclaimi20/webapp-jenkins:v1"
+    IMAGE = "maclaimi20/webapp-jenkins:v2"
   }
 
   stages {
