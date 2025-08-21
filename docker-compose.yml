@@ -1,10 +1,9 @@
 version: "3.9"
 services:
   webapp:
-    image: maclaimi20/webapp-jenkins:v2
+    image: maclaimi20/webapp-jenkins:v7
     ports: ["80:1200"]
     environment:
       PORT: 1200
   testapp:
     image: crccheck/hello-world  
-    ports: ["7070:8000"]
